@@ -1,5 +1,5 @@
 from openpyxl import load_workbook
-wb = load_workbook('budgetpy0_0.xlsx', data_only = True)
+wb = load_workbook('budgetpy0.xlsx', data_only = True)
 print('\n', wb.sheetnames)
 
 #set vars to sheets to use to change through sheets
